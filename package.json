@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build:css": "./tailwindcss-linux-x64 -i ./input.css -o ./output.css --minify"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.24",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18"
+  },
+  "dependencies": {
+    "lucide": "^0.563.0",
+    "tailwindcss-animate": "^1.0.7"
+  }
+}
